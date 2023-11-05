@@ -6,7 +6,7 @@ export default StyleSheet.create({
     backgroundColor: '#F5A3C8',
   },
   header: {
-    marginTop: 30,
+    marginTop: 0,
     marginBottom: 0,
     backgroundColor: '#ED0D92',
     flexDirection: 'row',
