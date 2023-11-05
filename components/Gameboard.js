@@ -140,7 +140,7 @@ export default Gameboard = ( { navigation, route } ) => {
             setTotalPoints(totalPoints + points[i])
             setStatus('New round! Throw dices to continue.')
             if (selectedPoints.every(x => x === true)) {
-                setStatus('Game over. All points have been selected')
+                setStatus('Game over. All points have been selected.')
                 setGameEndStatus(true)
                 setNbrOfThrowsLeft(0)
             }
